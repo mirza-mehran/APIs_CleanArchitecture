@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  apis_cleanarchitecture:
+    image: ${DOCKER_REGISTRY-}apiscleanarchitecture
+    build:
+      context: .\APIs_CleanArchitecture
+      dockerfile: Dockerfile
